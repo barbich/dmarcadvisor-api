@@ -123,8 +123,16 @@ class ReportDataApi(object):
         local_var_files = {}
 
         body_params = None
+        # HTTP header `Accept`
+        header_params['Accept'] = self.api_client.select_header_accept(
+            ['application/json'])  # noqa: E501
+
+        # HTTP header `Content-Type`
+        header_params['Content-Type'] = self.api_client.select_header_content_type(  # noqa: E501
+            ['application/json'])  # noqa: E501
+
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['API key in header']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aggregate-report/{search_token}/domains/', 'GET',
@@ -212,8 +220,16 @@ class ReportDataApi(object):
         local_var_files = {}
 
         body_params = None
+        # HTTP header `Accept`
+        header_params['Accept'] = self.api_client.select_header_accept(
+            ['application/json'])  # noqa: E501
+
+        # HTTP header `Content-Type`
+        header_params['Content-Type'] = self.api_client.select_header_content_type(  # noqa: E501
+            ['application/json'])  # noqa: E501
+
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['API key in header']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aggregate-report/{search_token}/progress/', 'GET',
@@ -327,8 +343,16 @@ class ReportDataApi(object):
         local_var_files = {}
 
         body_params = None
+        # HTTP header `Accept`
+        header_params['Accept'] = self.api_client.select_header_accept(
+            ['application/json'])  # noqa: E501
+
+        # HTTP header `Content-Type`
+        header_params['Content-Type'] = self.api_client.select_header_content_type(  # noqa: E501
+            ['application/json'])  # noqa: E501
+
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['API key in header']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aggregate-report/{search_token}/source/{source_number}/', 'GET',
@@ -418,8 +442,16 @@ class ReportDataApi(object):
         local_var_files = {}
 
         body_params = None
+        # HTTP header `Accept`
+        header_params['Accept'] = self.api_client.select_header_accept(
+            ['application/json'])  # noqa: E501
+
+        # HTTP header `Content-Type`
+        header_params['Content-Type'] = self.api_client.select_header_content_type(  # noqa: E501
+            ['application/json'])  # noqa: E501
+
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['API key in header']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/aggregate-report/{search_token}/sources/', 'GET',

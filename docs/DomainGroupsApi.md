@@ -29,8 +29,14 @@ import dmarcadvisor
 from dmarcadvisor.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: API key in header
+configuration = dmarcadvisor.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = dmarcadvisor.DomainGroupsApi()
+api_instance = dmarcadvisor.DomainGroupsApi(dmarcadvisor.ApiClient(configuration))
 id = 'id_example' # str | 
 data = dmarcadvisor.Data10() # Data10 |  (optional)
 
@@ -55,12 +61,12 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[API key in header](../README.md#API key in header)
 
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: Not defined
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -79,8 +85,14 @@ import dmarcadvisor
 from dmarcadvisor.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: API key in header
+configuration = dmarcadvisor.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = dmarcadvisor.DomainGroupsApi()
+api_instance = dmarcadvisor.DomainGroupsApi(dmarcadvisor.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
@@ -102,12 +114,12 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[API key in header](../README.md#API key in header)
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
- - **Accept**: Not defined
+ - **Content-Type**: application/json
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -126,8 +138,14 @@ import dmarcadvisor
 from dmarcadvisor.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: API key in header
+configuration = dmarcadvisor.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = dmarcadvisor.DomainGroupsApi()
+api_instance = dmarcadvisor.DomainGroupsApi(dmarcadvisor.ApiClient(configuration))
 page = 56 # int | A page number within the paginated result set. (optional)
 limit = 56 # int | Number of results to return per page. (optional)
 label = 'label_example' # str | Filter results by domain group name. (optional)
@@ -156,12 +174,12 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[API key in header](../README.md#API key in header)
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
- - **Accept**: Not defined
+ - **Content-Type**: application/json
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -180,8 +198,14 @@ import dmarcadvisor
 from dmarcadvisor.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: API key in header
+configuration = dmarcadvisor.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = dmarcadvisor.DomainGroupsApi()
+api_instance = dmarcadvisor.DomainGroupsApi(dmarcadvisor.ApiClient(configuration))
 id = 'id_example' # str | 
 data = dmarcadvisor.Data11() # Data11 |  (optional)
 
@@ -206,12 +230,12 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[API key in header](../README.md#API key in header)
 
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: Not defined
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -230,8 +254,14 @@ import dmarcadvisor
 from dmarcadvisor.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: API key in header
+configuration = dmarcadvisor.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = dmarcadvisor.DomainGroupsApi()
+api_instance = dmarcadvisor.DomainGroupsApi(dmarcadvisor.ApiClient(configuration))
 id = 'id_example' # str | 
 data = dmarcadvisor.Data9() # Data9 |  (optional)
 
@@ -256,12 +286,12 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[API key in header](../README.md#API key in header)
 
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: Not defined
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -280,8 +310,14 @@ import dmarcadvisor
 from dmarcadvisor.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: API key in header
+configuration = dmarcadvisor.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = dmarcadvisor.DomainGroupsApi()
+api_instance = dmarcadvisor.DomainGroupsApi(dmarcadvisor.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
@@ -304,12 +340,12 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[API key in header](../README.md#API key in header)
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
- - **Accept**: Not defined
+ - **Content-Type**: application/json
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -328,8 +364,14 @@ import dmarcadvisor
 from dmarcadvisor.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: API key in header
+configuration = dmarcadvisor.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = dmarcadvisor.DomainGroupsApi()
+api_instance = dmarcadvisor.DomainGroupsApi(dmarcadvisor.ApiClient(configuration))
 id = 'id_example' # str | 
 data = dmarcadvisor.Data12() # Data12 |  (optional)
 
@@ -353,12 +395,12 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[API key in header](../README.md#API key in header)
 
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: Not defined
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -377,8 +419,14 @@ import dmarcadvisor
 from dmarcadvisor.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: API key in header
+configuration = dmarcadvisor.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = dmarcadvisor.DomainGroupsApi()
+api_instance = dmarcadvisor.DomainGroupsApi(dmarcadvisor.ApiClient(configuration))
 id = 'id_example' # str | 
 data = dmarcadvisor.Data8() # Data8 |  (optional)
 
@@ -403,12 +451,12 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[API key in header](../README.md#API key in header)
 
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: Not defined
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

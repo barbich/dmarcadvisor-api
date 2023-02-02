@@ -51,6 +51,12 @@ import dmarcadvisor
 from dmarcadvisor.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: API key in header
+configuration = dmarcadvisor.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
 api_instance = dmarcadvisor.DKIMApi(dmarcadvisor.ApiClient(configuration))
 data = dmarcadvisor.Data() # Data |  (optional)
@@ -173,7 +179,12 @@ Class | Method | HTTP request | Description
 
 ## Documentation For Authorization
 
- All endpoints do not require authorization.
+
+## API key in header
+
+- **Type**: API key
+- **API key parameter name**: Authorization
+- **Location**: HTTP header
 
 
 ## Author
