@@ -109,12 +109,16 @@ class DomainGroupsApi(object):
         body_params = None
         if 'data' in params:
             body_params = params['data']
+        # HTTP header `Accept`
+        header_params['Accept'] = self.api_client.select_header_accept(
+            ['application/json'])  # noqa: E501
+
         # HTTP header `Content-Type`
         header_params['Content-Type'] = self.api_client.select_header_content_type(  # noqa: E501
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['API key in header']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/domain-groups/{id}/add-domains/', 'POST',
@@ -204,8 +208,16 @@ class DomainGroupsApi(object):
         local_var_files = {}
 
         body_params = None
+        # HTTP header `Accept`
+        header_params['Accept'] = self.api_client.select_header_accept(
+            ['application/json'])  # noqa: E501
+
+        # HTTP header `Content-Type`
+        header_params['Content-Type'] = self.api_client.select_header_content_type(  # noqa: E501
+            ['application/json'])  # noqa: E501
+
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['API key in header']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/domain-groups/{id}/', 'DELETE',
@@ -303,8 +315,16 @@ class DomainGroupsApi(object):
         local_var_files = {}
 
         body_params = None
+        # HTTP header `Accept`
+        header_params['Accept'] = self.api_client.select_header_accept(
+            ['application/json'])  # noqa: E501
+
+        # HTTP header `Content-Type`
+        header_params['Content-Type'] = self.api_client.select_header_content_type(  # noqa: E501
+            ['application/json'])  # noqa: E501
+
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['API key in header']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/domain-groups/', 'GET',
@@ -398,12 +418,16 @@ class DomainGroupsApi(object):
         body_params = None
         if 'data' in params:
             body_params = params['data']
+        # HTTP header `Accept`
+        header_params['Accept'] = self.api_client.select_header_accept(
+            ['application/json'])  # noqa: E501
+
         # HTTP header `Content-Type`
         header_params['Content-Type'] = self.api_client.select_header_content_type(  # noqa: E501
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['API key in header']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/domain-groups/{id}/move-domains/', 'POST',
@@ -497,12 +521,16 @@ class DomainGroupsApi(object):
         body_params = None
         if 'data' in params:
             body_params = params['data']
+        # HTTP header `Accept`
+        header_params['Accept'] = self.api_client.select_header_accept(
+            ['application/json'])  # noqa: E501
+
         # HTTP header `Content-Type`
         header_params['Content-Type'] = self.api_client.select_header_content_type(  # noqa: E501
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['API key in header']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/domain-groups/{id}/', 'PATCH',
@@ -592,8 +620,16 @@ class DomainGroupsApi(object):
         local_var_files = {}
 
         body_params = None
+        # HTTP header `Accept`
+        header_params['Accept'] = self.api_client.select_header_accept(
+            ['application/json'])  # noqa: E501
+
+        # HTTP header `Content-Type`
+        header_params['Content-Type'] = self.api_client.select_header_content_type(  # noqa: E501
+            ['application/json'])  # noqa: E501
+
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['API key in header']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/domain-groups/{id}/', 'GET',
@@ -687,12 +723,16 @@ class DomainGroupsApi(object):
         body_params = None
         if 'data' in params:
             body_params = params['data']
+        # HTTP header `Accept`
+        header_params['Accept'] = self.api_client.select_header_accept(
+            ['application/json'])  # noqa: E501
+
         # HTTP header `Content-Type`
         header_params['Content-Type'] = self.api_client.select_header_content_type(  # noqa: E501
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['API key in header']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/domain-groups/{id}/remove-domains/', 'POST',
@@ -786,12 +826,16 @@ class DomainGroupsApi(object):
         body_params = None
         if 'data' in params:
             body_params = params['data']
+        # HTTP header `Accept`
+        header_params['Accept'] = self.api_client.select_header_accept(
+            ['application/json'])  # noqa: E501
+
         # HTTP header `Content-Type`
         header_params['Content-Type'] = self.api_client.select_header_content_type(  # noqa: E501
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['API key in header']  # noqa: E501
 
         return self.api_client.call_api(
             '/api/v1/domain-groups/{id}/', 'PUT',

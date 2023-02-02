@@ -24,8 +24,14 @@ import dmarcadvisor
 from dmarcadvisor.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: API key in header
+configuration = dmarcadvisor.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = dmarcadvisor.ForensicFiltersApi()
+api_instance = dmarcadvisor.ForensicFiltersApi(dmarcadvisor.ApiClient(configuration))
 data = dmarcadvisor.Data17() # Data17 |  (optional)
 
 try:
@@ -48,12 +54,12 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[API key in header](../README.md#API key in header)
 
 ### HTTP request headers
 
  - **Content-Type**: application/json
- - **Accept**: Not defined
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -72,8 +78,14 @@ import dmarcadvisor
 from dmarcadvisor.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: API key in header
+configuration = dmarcadvisor.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = dmarcadvisor.ForensicFiltersApi()
+api_instance = dmarcadvisor.ForensicFiltersApi(dmarcadvisor.ApiClient(configuration))
 page = 56 # int | A page number within the paginated result set. (optional)
 limit = 56 # int | Number of results to return per page. (optional)
 
@@ -98,12 +110,12 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[API key in header](../README.md#API key in header)
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
- - **Accept**: Not defined
+ - **Content-Type**: application/json
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -122,8 +134,14 @@ import dmarcadvisor
 from dmarcadvisor.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: API key in header
+configuration = dmarcadvisor.Configuration()
+configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['Authorization'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = dmarcadvisor.ForensicFiltersApi()
+api_instance = dmarcadvisor.ForensicFiltersApi(dmarcadvisor.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
@@ -146,12 +164,12 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[API key in header](../README.md#API key in header)
 
 ### HTTP request headers
 
- - **Content-Type**: Not defined
- - **Accept**: Not defined
+ - **Content-Type**: application/json
+ - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
